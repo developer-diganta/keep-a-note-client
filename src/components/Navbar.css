@@ -1,0 +1,23 @@
+.nav-body{
+    background-color:#90caf9;
+    
+}
+
+.nav-txt{
+    color:#212121;
+    font-weight: bolder;
+}
+button{
+    background-color: transparent;
+    border:none;
+}
+
+.bttn{
+    background-color: hsl(340, 100%, 83%);
+    border-radius:10px;
+    font-weight: bolder;
+}
+
+.bttn:active{
+    background-color: #f48fb1;
+}

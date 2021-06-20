@@ -1,0 +1,15 @@
+/* .card-body{
+    background-color:blue;
+} */
+.del-icon{
+    font-size:1.5rem;
+    color:#333333;
+}
+.del-icon:hover{
+    color:#90caf9;
+}
+
+.del-icon:active{
+    color:black;
+}
+/* .del */

@@ -2,8 +2,12 @@ import {Form} from "react-bootstrap";
 import {addNotes} from "../services/services";
 import {store} from "../store/store";
 
-const user =JSON.parse(localStorage.getItem('profile'));
+
+
+export default function AddNote(){
+    const user =JSON.parse(localStorage.getItem('profile'));
 const addThis = async (e)=>{
+    
     e.preventDefault();
     const newNote={
         name:e.target.title.value,
@@ -18,9 +22,6 @@ const addThis = async (e)=>{
     console.log("DONE")
     
 }
-
-export default function AddNote(){
-
     return(
         <Form onSubmit={addThis}>
             <Form.Group controlId="title">
